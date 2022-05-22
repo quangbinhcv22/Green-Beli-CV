@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15fc90d0bacbbd42b715f1557a85195, type: 3}
+  m_Name: NationConfig
+  m_EditorClassIdentifier: 
+  supportedNations:
+    defaultValue:
+      art: {fileID: 21300000, guid: 14e7b78c920ddc84db0b15775c6eb644, type: 3}
+      fullName: Select your nation
+    customPairs:
+    - key: PH
+      value:
+        art: {fileID: 21300000, guid: 75ba800a18b3edb41bcd268f80098090, type: 3}
+        fullName: Philippines
+    - key: BR
+      value:
+        art: {fileID: 21300000, guid: 43d3d269eb1333d4abce24cc159d8efb, type: 3}
+        fullName: Brazil
+    - key: VN
+      value:
+        art: {fileID: 21300000, guid: aa7493f960ed7cf458364cc1d11cf6ff, type: 3}
+        fullName: Vietnam
+    - key: ID
+      value:
+        art: {fileID: 21300000, guid: ef1e50dcce90a2244acb7d9270e1c6e6, type: 3}
+        fullName: Indonesia
+    - key: US
+      value:
+        art: {fileID: 21300000, guid: 198fa58331577644f971f1a001008257, type: 3}
+        fullName: United States
+    - key: TH
+      value:
+        art: {fileID: 21300000, guid: 37186079e591c1545843f63a45cbe990, type: 3}
+        fullName: Thailand
+    - key: RU
+      value:
+        art: {fileID: 21300000, guid: d8c289191092a1f4c9c2211c0ce0f047, type: 3}
+        fullName: Russia
+    - key: IN
+      value:
+        art: {fileID: 21300000, guid: 74eb3cce60375c147ab19ac0f5a98353, type: 3}
+        fullName: India
+    - key: ES
+      value:
+        art: {fileID: 21300000, guid: 62d0a9965da223440b714289f8388ae3, type: 3}
+        fullName: Spain
+    - key: GB
+      value:
+        art: {fileID: 21300000, guid: acb5918e18770744880ffe95ea2b2f99, type: 3}
+        fullName: United Kingdom
+    - key: OT
+      value:
+        art: {fileID: 21300000, guid: 1c91ab21e54e578459f19a8bb4b09fdc, type: 3}
+        fullName: Others

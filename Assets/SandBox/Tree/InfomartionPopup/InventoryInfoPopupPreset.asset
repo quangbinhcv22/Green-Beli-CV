@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d394d7884d5d9c4abfb0fde1c85a11b, type: 3}
+  m_Name: InventoryInfoPopupPreset
+  m_EditorClassIdentifier: 
+  data:
+    title: Inventory
+    titleFontSize: 55
+    content: '<align="left">Inventory is where you keep all of your assets such as
+      fragments, boxes, packages and NFT items (EXP cards, Fusion stones, Training
+      house).
+
+
+      You have a chance to receive fragments from PVE battles and
+      assemble them into boxes which valuable NFT items are in.'

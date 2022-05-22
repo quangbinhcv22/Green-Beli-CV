@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 974b4c065bf972d4788baaebbbbfb209, type: 3}
+  m_Name: EmotionArtSet
+  m_EditorClassIdentifier: 
+  emotionSet:
+    defaultValue: {fileID: 0}
+    customPairs:
+    - key: :joyful
+      value: {fileID: 21300000, guid: ab3615159f04062498d9a747db7ad09a, type: 3}
+    - key: :surprised
+      value: {fileID: 21300000, guid: a54883249fcfd934999eaf3b02853a02, type: 3}
+    - key: :sad
+      value: {fileID: 21300000, guid: 9d5536955ce2a8d4aac80fa57fe43659, type: 3}
+    - key: :angry
+      value: {fileID: 21300000, guid: 5925ee2eccbf27f40a91165d23a2a716, type: 3}
+    - key: :teasing
+      value: {fileID: 21300000, guid: 65e6d94f909b21d41b0aae4e48eba161, type: 3}
+    - key: :cheering
+      value: {fileID: 21300000, guid: 7d81053373d453c4e922c25ffca80b36, type: 3}
+    - key: :moved
+      value: {fileID: 21300000, guid: a8f825f7b912aa04b958642696d8757d, type: 3}
+    - key: :scared
+      value: {fileID: 21300000, guid: 0a8fd9f0bd735184084a6c1b3e4859e1, type: 3}
+    - key: :hi
+      value: {fileID: 21300000, guid: 82ce664d4347aa342bc13af7bb93861e, type: 3}
+    - key: :best_of_luck
+      value: {fileID: 21300000, guid: 20dcdd1420d25624bab08fc73e153a5a, type: 3}
+    - key: :well_played
+      value: {fileID: 21300000, guid: 5084407b8ecdfda47b2b0a4c075d5ff9, type: 3}
+    - key: :thanks
+      value: {fileID: 21300000, guid: 44f3046b91c3c034cb16dce13f4e7598, type: 3}
+    - key: :sorry
+      value: {fileID: 21300000, guid: 4318295b3d4f69a4098d87a86e27939d, type: 3}
+    - key: :oh_no
+      value: {fileID: 21300000, guid: 12787377148c889449858ec5bad16656, type: 3}
+    - key: :good_game
+      value: {fileID: 21300000, guid: 4856f3b54fd185f49a159fa6baf831dc, type: 3}
+    - key: :bye
+      value: {fileID: 21300000, guid: 6512f40e55662444b9420c50d0cb4950, type: 3}
+  flippedEmotions:
+  - :joyful
+  - :surprised
+  - :sad
+  - :angry
+  - :teasing
+  - :cheering
+  - :moved
+  - :scared
+  emotions:
+    defaultValue:
+      emotionType: 0
+      art: {fileID: 0}
+    customPairs:
+    - key: :joyful
+      value:
+        emotionType: 1
+        art: {fileID: 21300000, guid: ab3615159f04062498d9a747db7ad09a, type: 3}
+    - key: :surprised
+      value:
+        emotionType: 1
+        art: {fileID: 21300000, guid: a54883249fcfd934999eaf3b02853a02, type: 3}
+    - key: :sad
+      value:
+        emotionType: 1
+        art: {fileID: 21300000, guid: 9d5536955ce2a8d4aac80fa57fe43659, type: 3}
+    - key: :angry
+      value:
+        emotionType: 1
+        art: {fileID: 21300000, guid: 5925ee2eccbf27f40a91165d23a2a716, type: 3}
+    - key: :teasing
+      value:
+        emotionType: 1
+        art: {fileID: 21300000, guid: 65e6d94f909b21d41b0aae4e48eba161, type: 3}
+    - key: :cheering
+      value:
+        emotionType: 1
+        art: {fileID: 21300000, guid: 7d81053373d453c4e922c25ffca80b36, type: 3}
+    - key: :moved
+      value:
+        emotionType: 1
+        art: {fileID: 21300000, guid: a8f825f7b912aa04b958642696d8757d, type: 3}
+    - key: :scared
+      value:
+        emotionType: 1
+        art: {fileID: 21300000, guid: 0a8fd9f0bd735184084a6c1b3e4859e1, type: 3}
+    - key: :hi
+      value:
+        emotionType: 2
+        art: {fileID: 21300000, guid: 82ce664d4347aa342bc13af7bb93861e, type: 3}
+    - key: :best_of_luck
+      value:
+        emotionType: 2
+        art: {fileID: 21300000, guid: 20dcdd1420d25624bab08fc73e153a5a, type: 3}
+    - key: :well_played
+      value:
+        emotionType: 2
+        art: {fileID: 21300000, guid: 5084407b8ecdfda47b2b0a4c075d5ff9, type: 3}
+    - key: :thanks
+      value:
+        emotionType: 2
+        art: {fileID: 21300000, guid: 44f3046b91c3c034cb16dce13f4e7598, type: 3}
+    - key: :sorry
+      value:
+        emotionType: 2
+        art: {fileID: 21300000, guid: 4318295b3d4f69a4098d87a86e27939d, type: 3}
+    - key: :oh_no
+      value:
+        emotionType: 2
+        art: {fileID: 21300000, guid: 12787377148c889449858ec5bad16656, type: 3}
+    - key: :good_game
+      value:
+        emotionType: 2
+        art: {fileID: 21300000, guid: 4856f3b54fd185f49a159fa6baf831dc, type: 3}
+    - key: :bye
+      value:
+        emotionType: 2
+        art: {fileID: 21300000, guid: 6512f40e55662444b9420c50d0cb4950, type: 3}
+  emotionBackgrounds:
+    defaultValue: {fileID: 21300000, guid: 1362f442396810b4ba1f240bf44c5a96, type: 3}
+    customPairs:
+    - key: 1
+      value: {fileID: 21300000, guid: 1362f442396810b4ba1f240bf44c5a96, type: 3}
+    - key: 2
+      value: {fileID: 21300000, guid: 58c92f99e9c8a054090d9645aab3170e, type: 3}

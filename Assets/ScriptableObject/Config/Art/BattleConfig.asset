@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4c6cd056c86d9488cabc50a625dcf4, type: 3}
+  m_Name: BattleConfig
+  m_EditorClassIdentifier: 
+  bossConfigs:
+  - identity: 1
+    faction: 5
+    model: {fileID: 4610688498993278807, guid: 20ddd8368cd09fd4dbeb7513a3e0c75d, type: 3}
+  - identity: 2
+    faction: 4
+    model: {fileID: 7294433128631936985, guid: 188c502460aa6b84c8b0e46842a5824d, type: 3}
+  - identity: 3
+    faction: 2
+    model: {fileID: 2707359870501711910, guid: a6b5b41f86ce7cd4388814df09982798, type: 3}
+  - identity: 4
+    faction: 1
+    model: {fileID: 448281521712942155, guid: 5f33458b197a58742a1efd8c95ce565f, type: 3}
+  - identity: 5
+    faction: 3
+    model: {fileID: 7662213962707080620, guid: 4c74fc678036b9743b50f12f65c5ca3c, type: 3}

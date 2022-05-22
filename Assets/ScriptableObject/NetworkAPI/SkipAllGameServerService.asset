@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd96e149d4222945b21b83fa1f31c2f, type: 3}
+  m_Name: SkipAllGameServerService
+  m_EditorClassIdentifier: 
+  screenHandler:
+    successScreenRequest:
+      action: 1
+      id: 1251
+      haveAnimation: 1
+    openInfoPopupRequest:
+      action: 1
+      id: 101
+      haveAnimation: 1
+    notEnoughEnergyPopupInfo: {fileID: 11400000, guid: 539c9c43f8381774abd9de4cd7ddf483,
+      type: 2}
+    onNotSelectHeroRequest:
+      action: 1
+      id: 1250
+      haveAnimation: 1

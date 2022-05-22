@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87901cabfef86d94aaa271d28d31c818, type: 3}
+  m_Name: GetTransactionHistoryServerService
+  m_EditorClassIdentifier: 
+  _messageResponse:
+    id: GET_TRANSACTION_HISTORY
+    data:
+    - createdTime: 26-Nov-2021 07:30:12
+      id: 61a08fc8fc3aef6b067b1dac
+      type: deposit
+      content: 100
+      status: 
+    - createdTime: 26-Nov-2021 07:32:42
+      id: 61a08fc8fc3aef6b067b1db3
+      type: deposit
+      content: 100
+      status: 
+    - createdTime: 26-Nov-2021 07:42:24
+      id: 61a08fe2fc3aef6b067b1dbb
+      type: deposit
+      content: 100
+      status: 
+    - createdTime: 26-Nov-2021 10:43:06
+      id: 61a0ba3ffc3aef6b067b21ad
+      type: deposit
+      content: 1000
+      status: 
+    - createdTime: 26-Nov-2021 10:43:36
+      id: 61a0ba5bfc3aef6b067b21b7
+      type: deposit
+      content: 1000
+      status: 
+    - createdTime: 26-Nov-2021 10:45:57
+      id: 61a0bae7fc3aef6b067b21d0
+      type: deposit
+      content: 1000
+      status: 
+    error: 

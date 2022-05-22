@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d394d7884d5d9c4abfb0fde1c85a11b, type: 3}
+  m_Name: RestoreLevelsInfoPopupPreset
+  m_EditorClassIdentifier: 
+  data:
+    title: Restore Levels
+    titleFontSize: 45
+    content: '<align="left">When a Green Hero is exchanged, the exp amount will be
+      reset to 0, the level will be reset to 1. However, each Green Hero has a former
+      level attribute (the highest level the Green Hero has ever reached).
+
+
+      With
+      the Restore levels feature, players can use GFRUIT to restore a Green hero
+      to the highest level it has ever achieved.'

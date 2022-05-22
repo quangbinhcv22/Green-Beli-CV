@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3681e91b2a986f8478f1b6317e32746c, type: 3}
+  m_Name: ViewHeroRarityArtConfig
+  m_EditorClassIdentifier: 
+  rarityBackgroundArtPairs:
+  - rarity: 1
+    mainBackground: {fileID: 21300000, guid: 17cccd0a6ca94da4f8b693b0ffd74909, type: 3}
+    levelBackground: {fileID: 21300000, guid: 77f151d6f03edbf4583d2ca5d113a5fd, type: 3}
+  - rarity: 2
+    mainBackground: {fileID: 21300000, guid: e07262abaca89ed4b86d907948a386f9, type: 3}
+    levelBackground: {fileID: 21300000, guid: 7608fcc16511ea04ab7a443abb36991d, type: 3}
+  - rarity: 3
+    mainBackground: {fileID: 21300000, guid: 35e5ea8b6e6ae2849a9af7690bedd56e, type: 3}
+    levelBackground: {fileID: 21300000, guid: f9586880abfe0624b8b69b31544a8106, type: 3}
+  - rarity: 4
+    mainBackground: {fileID: 21300000, guid: bd6b5a67fc2058646a0466a9cb9a47ea, type: 3}
+    levelBackground: {fileID: 21300000, guid: 97dd6f41859b58f409289cc0189a562c, type: 3}
+  - rarity: 5
+    mainBackground: {fileID: 21300000, guid: d671c7f2a86fefe45ba6203d9f27f280, type: 3}
+    levelBackground: {fileID: 21300000, guid: 409f4de4fbb42394e8dd9a4b060c1fc6, type: 3}
+  - rarity: 6
+    mainBackground: {fileID: 21300000, guid: 6a0e27cac55ada341ba0e025d04fd251, type: 3}
+    levelBackground: {fileID: 21300000, guid: d4b85523070316842bdaf6051b29ab21, type: 3}

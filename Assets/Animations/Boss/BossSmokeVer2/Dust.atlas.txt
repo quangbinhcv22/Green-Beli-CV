@@ -1,0 +1,321 @@
+
+Dust.png
+size: 1604,1604
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dust/Layer 31 copy
+  rotate: false
+  xy: 1413, 1374
+  size: 188, 228
+  orig: 188, 228
+  offset: 0, 0
+  index: -1
+dust/VFX-electric
+  rotate: false
+  xy: 884, 949
+  size: 406, 275
+  orig: 422, 298
+  offset: 7, 9
+  index: -1
+dust/die-body
+  rotate: false
+  xy: 2, 1113
+  size: 439, 489
+  orig: 444, 503
+  offset: 5, 0
+  index: -1
+dust/die-eyeleft
+  rotate: false
+  xy: 751, 365
+  size: 198, 191
+  orig: 215, 207
+  offset: 8, 8
+  index: -1
+dust/die-eyeright
+  rotate: false
+  xy: 751, 558
+  size: 197, 194
+  orig: 213, 209
+  offset: 9, 7
+  index: -1
+dust/die-tentacle1
+  rotate: false
+  xy: 1162, 440
+  size: 174, 135
+  orig: 174, 135
+  offset: 0, 0
+  index: -1
+dust/die-tentacle2
+  rotate: false
+  xy: 377, 19
+  size: 214, 156
+  orig: 214, 156
+  offset: 0, 0
+  index: -1
+dust/die-tentacle3
+  rotate: false
+  xy: 254, 123
+  size: 121, 135
+  orig: 121, 135
+  offset: 0, 0
+  index: -1
+dust/die-tentacle4
+  rotate: false
+  xy: 874, 189
+  size: 196, 174
+  orig: 196, 174
+  offset: 0, 0
+  index: -1
+dust/die-vfx1
+  rotate: false
+  xy: 378, 177
+  size: 272, 268
+  orig: 280, 277
+  offset: 4, 5
+  index: -1
+dust/die-vfx2
+  rotate: false
+  xy: 443, 759
+  size: 366, 352
+  orig: 375, 364
+  offset: 5, 6
+  index: -1
+dust/gethurt-arm1
+  rotate: false
+  xy: 254, 10
+  size: 104, 111
+  orig: 110, 115
+  offset: 3, 0
+  index: -1
+dust/gethurt-arm2
+  rotate: false
+  xy: 1514, 1005
+  size: 77, 81
+  orig: 81, 84
+  offset: 2, 0
+  index: -1
+dust/gethurt-body
+  rotate: false
+  xy: 2, 622
+  size: 439, 489
+  orig: 444, 503
+  offset: 5, 0
+  index: -1
+dust/gethurt-eyeleft
+  rotate: false
+  xy: 1017, 776
+  size: 220, 171
+  orig: 239, 185
+  offset: 8, 6
+  index: -1
+dust/gethurt-eyeright
+  rotate: false
+  xy: 1292, 852
+  size: 216, 150
+  orig: 237, 163
+  offset: 12, 6
+  index: -1
+dust/gethurt-handleft
+  rotate: false
+  xy: 951, 373
+  size: 187, 197
+  orig: 187, 198
+  offset: 0, 1
+  index: -1
+dust/gethurt-handright
+  rotate: false
+  xy: 1413, 1177
+  size: 189, 195
+  orig: 190, 196
+  offset: 0, 0
+  index: -1
+dust/gethurt-mouth
+  rotate: false
+  xy: 1351, 544
+  size: 202, 109
+  orig: 202, 109
+  offset: 0, 0
+  index: -1
+dust/gethurt-tentacle1
+  rotate: false
+  xy: 1338, 407
+  size: 174, 135
+  orig: 174, 135
+  offset: 0, 0
+  index: -1
+dust/gethurt-tentacle2
+  rotate: false
+  xy: 652, 34
+  size: 214, 156
+  orig: 214, 156
+  offset: 0, 0
+  index: -1
+dust/gethurt-tentacle3
+  rotate: false
+  xy: 1446, 270
+  size: 121, 135
+  orig: 121, 135
+  offset: 0, 0
+  index: -1
+dust/gethurt-tentacle4
+  rotate: false
+  xy: 1072, 197
+  size: 196, 174
+  orig: 196, 174
+  offset: 0, 0
+  index: -1
+dust/idle-armright1
+  rotate: false
+  xy: 1398, 19
+  size: 107, 112
+  orig: 112, 115
+  offset: 4, 0
+  index: -1
+dust/idle-armright2
+  rotate: false
+  xy: 1514, 1088
+  size: 84, 87
+  orig: 87, 91
+  offset: 3, 1
+  index: -1
+dust/idle-body
+  rotate: false
+  xy: 443, 1113
+  size: 439, 489
+  orig: 444, 503
+  offset: 5, 0
+  index: -1
+dust/idle-eyeleft
+  rotate: false
+  xy: 652, 192
+  size: 220, 171
+  orig: 239, 185
+  offset: 8, 6
+  index: -1
+dust/idle-eyeright
+  rotate: false
+  xy: 1292, 1004
+  size: 220, 171
+  orig: 239, 185
+  offset: 11, 6
+  index: -1
+dust/idle-handlleft
+  rotate: false
+  xy: 1162, 577
+  size: 187, 197
+  orig: 187, 198
+  offset: 0, 1
+  index: -1
+dust/idle-handright
+  rotate: false
+  xy: 1351, 655
+  size: 189, 195
+  orig: 190, 196
+  offset: 0, 0
+  index: -1
+dust/idle-mouth
+  rotate: false
+  xy: 2, 21
+  size: 131, 84
+  orig: 149, 95
+  offset: 8, 7
+  index: -1
+dust/idle-tentacle1
+  rotate: false
+  xy: 1270, 270
+  size: 174, 135
+  orig: 174, 135
+  offset: 0, 0
+  index: -1
+dust/idle-tentacle2
+  rotate: false
+  xy: 868, 31
+  size: 214, 156
+  orig: 214, 156
+  offset: 0, 0
+  index: -1
+dust/idle-tentacle3
+  rotate: false
+  xy: 1433, 133
+  size: 121, 135
+  orig: 121, 135
+  offset: 0, 0
+  index: -1
+dust/idle-tentacle4
+  rotate: false
+  xy: 1084, 21
+  size: 196, 174
+  orig: 196, 174
+  offset: 0, 0
+  index: -1
+dust/idle-vfxhand
+  rotate: false
+  xy: 884, 1226
+  size: 527, 376
+  orig: 527, 376
+  offset: 0, 0
+  index: -1
+dust/smoke1
+  rotate: false
+  xy: 443, 447
+  size: 306, 310
+  orig: 306, 310
+  offset: 0, 0
+  index: -1
+dust/smoke2
+  rotate: false
+  xy: 950, 572
+  size: 210, 180
+  orig: 210, 180
+  offset: 0, 0
+  index: -1
+dust/smoke3
+  rotate: false
+  xy: 2, 107
+  size: 250, 151
+  orig: 250, 151
+  offset: 0, 0
+  index: -1
+dust/smoke5
+  rotate: false
+  xy: 811, 754
+  size: 204, 193
+  orig: 204, 193
+  offset: 0, 0
+  index: -1
+dust/star3
+  rotate: false
+  xy: 135, 8
+  size: 116, 97
+  orig: 125, 105
+  offset: 4, 4
+  index: -1
+smoke/idle/VFX-smoke1
+  rotate: false
+  xy: 1282, 23
+  size: 114, 108
+  orig: 114, 108
+  offset: 0, 0
+  index: -1
+smoke/idle/pupil
+  rotate: false
+  xy: 378, 592
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+smoke/idle/vfx-smoke2
+  rotate: false
+  xy: 2, 260
+  size: 374, 360
+  orig: 374, 360
+  offset: 0, 0
+  index: -1
+smoke3y
+  rotate: false
+  xy: 1282, 133
+  size: 149, 135
+  orig: 157, 139
+  offset: 4, 2
+  index: -1

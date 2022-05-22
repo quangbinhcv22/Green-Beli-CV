@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb43c92f6734ce1449a947b44474dbe1, type: 3}
+  m_Name: GetPvpContestDetailServerService
+  m_EditorClassIdentifier: 
+  _response:
+    id: GET_PVP_CONTEST_DETAIL
+    data:
+      startedTime: 1646121600000
+      finishedTime: 1646123399000
+      totalSpendPVPTicket: 0
+      lastRewards:
+      - owner: 0xf9A0e11b66d61E9Ff6D63a596ebC71792f62a0CF
+        numberPVPEarnKey: 2
+        rank: 1
+        numberPVPWinGame: 2
+        numberPVPGame: 3
+      - owner: 0xB095CF73cb488A111c90181CDa7b585A8b8Ca174
+        numberPVPEarnKey: 1
+        rank: 2
+        numberPVPWinGame: 1
+        numberPVPGame: 1
+      topAccounts: []
+      myReward:
+        owner: 0xf9A0e11b66d61E9Ff6D63a596ebC71792f62a0CF
+        numberPVPEarnKey: 2
+        rank: 1
+        numberPVPWinGame: 2
+        numberPVPGame: 3
+    error: 

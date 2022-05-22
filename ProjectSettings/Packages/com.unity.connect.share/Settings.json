@@ -1,0 +1,28 @@
+{
+    "m_Name": "Settings",
+    "m_Path": "ProjectSettings/Packages/com.unity.connect.share/Settings.json",
+    "m_Dictionary": {
+        "m_DictionaryValues": [
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "firstTime",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "autoPublish",
+                "value": "{\"m_Value\":true}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "createDefaultBuildsFolder",
+                "value": "{\"m_Value\":true}"
+            },
+            {
+                "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "buildOutputDirList",
+                "value": "{\"m_Value\":\"D:/Projects/greenbeli/unity/Local_build;D:/GitHub/grbe office/grbe-unity/Local_build;C:/Users/phpho/greenbeli-unity/Local_build;D:/GitHub/grbe office/grbe-unity/Local Build Demo;D:/GitHub/grbe/greenbeli-unity/Local Build Demo;D:/Projects/green-beli/greenbeli-web;D:/Projects/green-beli/unity/Build;D:/GitHub/Project GRBE/WebGL Builds;;\"}"
+            }
+        ]
+    }
+}

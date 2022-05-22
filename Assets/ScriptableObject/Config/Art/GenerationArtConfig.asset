@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce2a724a4ced6a64fbb74be7e28348b3, type: 3}
+  m_Name: GenerationArtConfig
+  m_EditorClassIdentifier: 
+  generationArtPairs:
+  - heroRarity: 1
+    backgroundGeneration: {fileID: 21300000, guid: 585597e2302f3564b936b5834995d41e,
+      type: 3}
+  - heroRarity: 2
+    backgroundGeneration: {fileID: 21300000, guid: 1bf52ff5d0b323646b50fa380bef6bd4,
+      type: 3}
+  - heroRarity: 3
+    backgroundGeneration: {fileID: 21300000, guid: 8dd272843d5b55a47a504ca1bbce0953,
+      type: 3}
+  - heroRarity: 4
+    backgroundGeneration: {fileID: 21300000, guid: ba43985a8e58e8e4f99d77797a8942dd,
+      type: 3}
+  - heroRarity: 5
+    backgroundGeneration: {fileID: 21300000, guid: 088304ed331c0c44586b700318c863ea,
+      type: 3}
+  - heroRarity: 6
+    backgroundGeneration: {fileID: 21300000, guid: 698396d85f9fd754285f62c404f984c7,
+      type: 3}

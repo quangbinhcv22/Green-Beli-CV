@@ -1,0 +1,132 @@
+
+Ember.png
+size: 1232,1232
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ember/die/body
+  rotate: false
+  xy: 2, 245
+  size: 404, 468
+  orig: 404, 468
+  offset: 0, 0
+  index: -1
+ember/die/eye-die
+  rotate: false
+  xy: 1130, 1152
+  size: 73, 75
+  orig: 73, 75
+  offset: 0, 0
+  index: -1
+ember/gethurt/body
+  rotate: false
+  xy: 535, 759
+  size: 404, 468
+  orig: 404, 468
+  offset: 0, 0
+  index: -1
+ember/gethurt/mouth
+  rotate: false
+  xy: 390, 147
+  size: 203, 96
+  orig: 203, 96
+  offset: 0, 0
+  index: -1
+ember/idle/body
+  rotate: false
+  xy: 408, 245
+  size: 404, 468
+  orig: 404, 468
+  offset: 0, 0
+  index: -1
+ember/idle/eyeball
+  rotate: false
+  xy: 941, 773
+  size: 130, 122
+  orig: 130, 122
+  offset: 0, 0
+  index: -1
+ember/idle/eyeball2
+  rotate: false
+  xy: 595, 121
+  size: 130, 122
+  orig: 130, 122
+  offset: 0, 0
+  index: -1
+ember/idle/eyebrow
+  rotate: false
+  xy: 390, 59
+  size: 136, 86
+  orig: 136, 87
+  offset: 0, 0
+  index: -1
+ember/idle/eywbrow2
+  rotate: false
+  xy: 814, 233
+  size: 136, 86
+  orig: 136, 87
+  offset: 0, 0
+  index: -1
+ember/idle/flame
+  rotate: false
+  xy: 2, 715
+  size: 531, 512
+  orig: 531, 512
+  offset: 0, 0
+  index: -1
+ember/idle/forearm1
+  rotate: false
+  xy: 239, 50
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+ember/idle/forearm2
+  rotate: false
+  xy: 1079, 166
+  size: 118, 153
+  orig: 118, 153
+  offset: 0, 0
+  index: -1
+ember/idle/hand1
+  rotate: false
+  xy: 2, 49
+  size: 235, 194
+  orig: 235, 194
+  offset: 0, 0
+  index: -1
+ember/idle/hand2
+  rotate: false
+  xy: 941, 897
+  size: 186, 154
+  orig: 186, 154
+  offset: 0, 0
+  index: -1
+ember/idle/pupil
+  rotate: false
+  xy: 535, 729
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+rock1
+  rotate: false
+  xy: 952, 204
+  size: 125, 115
+  orig: 125, 115
+  offset: 0, 0
+  index: -1
+rock2
+  rotate: false
+  xy: 941, 1053
+  size: 187, 174
+  orig: 188, 174
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 814, 321
+  size: 413, 436
+  orig: 417, 438
+  offset: 2, 1
+  index: -1

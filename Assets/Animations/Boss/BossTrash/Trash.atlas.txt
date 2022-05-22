@@ -1,0 +1,146 @@
+
+Trash.png
+size: 1448,1448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explose1
+  rotate: false
+  xy: 1308, 883
+  size: 70, 264
+  orig: 70, 266
+  offset: 0, 1
+  index: -1
+explose2
+  rotate: false
+  xy: 375, 107
+  size: 51, 208
+  orig: 51, 209
+  offset: 0, 0
+  index: -1
+explose3
+  rotate: false
+  xy: 1380, 881
+  size: 33, 266
+  orig: 35, 268
+  offset: 1, 1
+  index: -1
+explose4
+  rotate: false
+  xy: 1226, 359
+  size: 174, 174
+  orig: 176, 176
+  offset: 1, 1
+  index: -1
+light
+  rotate: false
+  xy: 62, 33
+  size: 71, 71
+  orig: 81, 81
+  offset: 5, 5
+  index: -1
+smoke
+  rotate: false
+  xy: 454, 167
+  size: 413, 436
+  orig: 417, 438
+  offset: 2, 1
+  index: -1
+trash/die/Layer 113 copy 2
+  rotate: false
+  xy: 869, 324
+  size: 355, 209
+  orig: 355, 209
+  offset: 0, 0
+  index: -1
+trash/die/die-VFX
+  rotate: false
+  xy: 463, 1144
+  size: 717, 299
+  orig: 724, 301
+  offset: 5, 2
+  index: -1
+trash/die/die-pupil
+  rotate: false
+  xy: 1308, 745
+  size: 132, 134
+  orig: 141, 143
+  offset: 5, 5
+  index: -1
+trash/die/main
+  rotate: false
+  xy: 2, 317
+  size: 450, 537
+  orig: 450, 537
+  offset: 0, 0
+  index: -1
+trash/gethurt/get-hurt-oil
+  rotate: false
+  xy: 2, 106
+  size: 371, 209
+  orig: 371, 209
+  offset: 0, 0
+  index: -1
+trash/gethurt/get-hurt-symbol
+  rotate: false
+  xy: 1240, 201
+  size: 190, 156
+  orig: 194, 161
+  offset: 2, 2
+  index: -1
+trash/gethurt/main
+  rotate: false
+  xy: 2, 856
+  size: 459, 587
+  orig: 460, 587
+  offset: 0, 0
+  index: -1
+trash/idle/VFX-flame
+  rotate: false
+  xy: 915, 701
+  size: 391, 441
+  orig: 397, 450
+  offset: 3, 4
+  index: -1
+trash/idle/VFX-flame2
+  rotate: false
+  xy: 1182, 1149
+  size: 261, 294
+  orig: 261, 294
+  offset: 0, 0
+  index: -1
+trash/idle/VFX-ground
+  rotate: false
+  xy: 915, 535
+  size: 507, 164
+  orig: 507, 166
+  offset: 0, 1
+  index: -1
+trash/idle/VFX-obj
+  rotate: false
+  xy: 2, 18
+  size: 58, 86
+  orig: 58, 86
+  offset: 0, 0
+  index: -1
+trash/idle/eyes
+  rotate: false
+  xy: 869, 166
+  size: 369, 156
+  orig: 369, 156
+  offset: 0, 0
+  index: -1
+trash/idle/main
+  rotate: false
+  xy: 463, 605
+  size: 450, 537
+  orig: 450, 537
+  offset: 0, 0
+  index: -1
+trash/idle/obj1
+  rotate: false
+  xy: 1240, 72
+  size: 108, 127
+  orig: 108, 128
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a8fcd8183b9cb4d9536631776c86f3, type: 3}
+  m_Name: LevelBackgroundArtSet
+  m_EditorClassIdentifier: 
+  levelBackgroundArtPairs:
+  - rarity: 1
+    sprite: {fileID: 21300000, guid: 9e42f6ec8f1d2bb419f58a111700ecb0, type: 3}
+  - rarity: 2
+    sprite: {fileID: 21300000, guid: 698236c346f684845bc50f9b5c50eb44, type: 3}
+  - rarity: 3
+    sprite: {fileID: 21300000, guid: 9b9ac2c58598f7f408478a6d6bf8c999, type: 3}
+  - rarity: 4
+    sprite: {fileID: 21300000, guid: 09facac68f8fcba4ea89c136a5953365, type: 3}
+  - rarity: 5
+    sprite: {fileID: 21300000, guid: 7398c22c29507dd499119521944f3b61, type: 3}
+  - rarity: 6
+    sprite: {fileID: 21300000, guid: f520f2aed316c0149aab4d988c965f46, type: 3}

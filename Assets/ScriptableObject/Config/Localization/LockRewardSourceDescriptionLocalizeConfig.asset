@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e7fa6f3e32d024988b55d54f4fc3f4, type: 3}
+  m_Name: LockRewardSourceDescriptionLocalizeConfig
+  m_EditorClassIdentifier: 
+  config:
+    defaultValue: 
+    customPairs:
+    - key: PVE
+      value: PvE
+    - key: OPEN_BOX_PVP
+      value: PvP - Open Rewards
+    - key: TOP_PVP_CONTEST
+      value: PvP - Top Season
+    - key: DAILY_LOTTERY
+      value: Lottery Winner
+    - key: OPEN_MYSTERY_CHEST
+      value: Mystery Chest
+    - key: JACKPOT_LOTTERY
+      value: Jackpot Winner

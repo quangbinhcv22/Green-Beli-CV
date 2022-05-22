@@ -1,0 +1,43 @@
+- hosts: worker
+  vars:
+    app_repo: "{{lookup('env', 'CI_REPOSITORY_URL')}}"
+    app_rev: "{{lookup('env', 'CI_COMMIT_SHA') | default('HEAD', true)}}"
+
+    app_env: "{{lookup('env', 'CI_ENVIRONMENT_NAME') | default('develop', true)}}"
+    env_suffix: "{{('_' + app_env)}}"
+
+    release_name: "{{lookup('env', 'RELEASE_NAME')}}"
+    app_root: "{{ansible_env.HOME}}/{{release_name + env_suffix}}"
+
+  tasks:
+    - name: Pull code
+      git:
+        repo: "{{app_repo}}"
+        dest: "{{app_root}}"
+        #recursive: yes
+        force: yes
+        #update: yes
+        accept_hostkey: true
+        version: "{{app_rev}}"
+
+#    - name: Copy env
+#      copy:
+#        content: "{{ lookup('env', 'CONFIGS_' + release_name + env_suffix) }}"
+#        dest: "{{ app_root }}/ProjectSettings/ProjectSettings.asset"
+#        force: yes
+#
+#    - name: Copy build folder
+#      copy:
+#        src: "../{{release_name}}-build.tar.bz2"
+#        dest: "{{app_root}}"
+#
+#    - name: Extract build.tar.bz2
+#      unarchive:
+#        src: "{{app_root}}/{{release_name}}-build.tar.bz2"
+#        dest: "{{app_root}}"
+#        remote_src: yes
+#
+#    - name: Delete build.tar.bz2
+#      file:
+#        path: '{{app_root}}/{{release_name}}-build.tar.bz2'
+#        state: absent

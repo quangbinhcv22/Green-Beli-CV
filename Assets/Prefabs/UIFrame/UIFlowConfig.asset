@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461d2af65a62f2e4da7deee5b61f8f5a, type: 3}
+  m_Name: UIFlowConfig
+  m_EditorClassIdentifier: 
+  framePrefabs:
+  - {fileID: 7073373107537796002, guid: a7033bbd5070e9c478c486a2cc06e5e8, type: 3}
+  - {fileID: 1169676814019205235, guid: 68ef693cbf8ff914cac2c2a10e5e01f7, type: 3}
+  requests:
+    onAwake:
+    - action: 1
+      id: 1101
+      haveAnimation: 0
+    onConnect:
+    - action: 3
+      id: 202
+      haveAnimation: 0
+    - action: 1
+      id: 1101
+      haveAnimation: 0
+    onDisconnect:
+    - action: 3
+      id: -1
+      haveAnimation: 0
+    - action: 1
+      id: 202
+      haveAnimation: 0
+    onLoggedIn:
+    - action: 3
+      id: 1101
+      haveAnimation: 0
+    - action: 3
+      id: 1102
+      haveAnimation: 0
+    - action: 1
+      id: 301
+      haveAnimation: 0
+    onOutOfVersion:
+    - action: 1
+      id: 1120
+      haveAnimation: 0
+    onEssentialDataLoaded:
+    - action: 3
+      id: 301
+      haveAnimation: 0
+    - action: 1
+      id: 1001
+      haveAnimation: 0
+    onConvertKeyPvp:
+    - action: 1
+      id: 2105
+      haveAnimation: 1
+    onJoinPvp:
+    - action: 4
+      id: 2108
+      haveAnimation: 0
+    onStartPvp: []
+    onSkipAllPve:
+    - action: 1
+      id: 1211
+      haveAnimation: 1
+    onBreedingSuccess:
+    - action: 1
+      id: 1602
+      haveAnimation: 0
+    onFusionSuccess:
+    - action: 1
+      id: 1702
+      haveAnimation: 0
+    onWinLottery:
+    - action: 1
+      id: 1903
+      haveAnimation: 0
+    onShowToast:
+    - action: 1
+      id: 302
+      haveAnimation: 0
+    onBuyTreeSuccess:
+    - action: 1
+      id: 2204
+      haveAnimation: 0
+    onReceivedFormMysteryChest:
+    - action: 1
+      id: 2303
+      haveAnimation: 1
+  infoDataPreset:
+    openInfoPopup:
+      action: 1
+      id: 101
+      haveAnimation: 0
+    loginSameAddress: {fileID: 11400000, guid: 7a3a0f560ebc50542a06189a93d1023c, type: 2}
+    notSelectHero: {fileID: 11400000, guid: e4e592b471246ef41b3470e2da0d485c, type: 2}
+    notEnoughEnergy: {fileID: 11400000, guid: 539c9c43f8381774abd9de4cd7ddf483, type: 2}
+    empty: {fileID: 11400000, guid: ef3c8db572f46824190b67d1304d28ff, type: 2}

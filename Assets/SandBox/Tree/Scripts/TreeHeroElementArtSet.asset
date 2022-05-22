@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79be51809cb22eb468179e0f78be4f53, type: 3}
+  m_Name: TreeHeroElementArtSet
+  m_EditorClassIdentifier: 
+  artSet:
+    defaultValue: {fileID: 0}
+    customPairs:
+    - key: 1
+      value: {fileID: 21300000, guid: 09facac68f8fcba4ea89c136a5953365, type: 3}
+    - key: 2
+      value: {fileID: 21300000, guid: 698236c346f684845bc50f9b5c50eb44, type: 3}
+    - key: 3
+      value: {fileID: 21300000, guid: 9b9ac2c58598f7f408478a6d6bf8c999, type: 3}
+    - key: 4
+      value: {fileID: 21300000, guid: f520f2aed316c0149aab4d988c965f46, type: 3}
+    - key: 5
+      value: {fileID: 21300000, guid: 7398c22c29507dd499119521944f3b61, type: 3}

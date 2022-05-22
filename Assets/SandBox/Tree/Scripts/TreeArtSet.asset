@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79be51809cb22eb468179e0f78be4f53, type: 3}
+  m_Name: TreeArtSet
+  m_EditorClassIdentifier: 
+  elementArtPairs: []
+  artSet:
+    defaultValue: {fileID: 0}
+    customPairs:
+    - key: 1
+      value: {fileID: 21300000, guid: 14e5fd1da9bd489499044a5e9e963361, type: 3}
+    - key: 2
+      value: {fileID: 21300000, guid: a0258e8ce67f53244a3434e55639a16c, type: 3}
+    - key: 3
+      value: {fileID: 21300000, guid: 76aa6a503bcb892479a7fbdeeaef3294, type: 3}
+    - key: 4
+      value: {fileID: 21300000, guid: fe785d9730d6e1f41abf976397e0ab4d, type: 3}
+    - key: 5
+      value: {fileID: 21300000, guid: c68edd53651137643a933346aab68def, type: 3}

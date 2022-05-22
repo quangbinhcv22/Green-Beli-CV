@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de9180f1e1cfc44a9a8c032bdf2c7f7, type: 3}
+  m_Name: LuckyGreenbieRankArtSet
+  m_EditorClassIdentifier: 
+  rankArtConfigs:
+    defaultValue: {fileID: 0}
+    customPairs:
+    - key: 1
+      value: {fileID: 21300000, guid: 6cf540caf0b813e4482674f134bf0fff, type: 3}
+    - key: 2
+      value: {fileID: 21300000, guid: 375293bbd2fb86a49b6ab2031e6eec84, type: 3}
+    - key: 3
+      value: {fileID: 21300000, guid: 877d19ccd5174af469937f14499fe9a9, type: 3}

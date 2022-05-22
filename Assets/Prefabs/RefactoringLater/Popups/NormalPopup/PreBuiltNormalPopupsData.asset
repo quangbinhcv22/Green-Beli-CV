@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb9e5ed0f7a79f4a84684d6d6b26885, type: 3}
+  m_Name: PreBuiltNormalPopupsData
+  m_EditorClassIdentifier: 
+  preBuiltPopupDataLists:
+  - popupId: 0
+    sizeType: 100
+    title: Coming Soon
+    contents:
+    - We will update this feature in the future! ^^
+    buttonContent: Oke
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 1
+      navigationToScreen: 0
+  - popupId: 600
+    sizeType: 100
+    title: Warning
+    contents:
+    - Please, choose MAIN HERO to your team.
+    buttonContent: My Team
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 60
+  - popupId: 700
+    sizeType: 100
+    title: Disconnect
+    contents:
+    - Someone is login with same address
+    - Please press F5 to reload the page!
+    buttonContent: 
+    actionButtonData:
+      isCanNotClosePopup: 1
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 0
+  - popupId: 800
+    sizeType: 100
+    title: Stop matching
+    contents:
+    - Timeout matching player, let's try it again!
+    buttonContent: Oke
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 20
+  - popupId: 1010
+    sizeType: 100
+    title: Error
+    contents:
+    - Something wrong in server
+    buttonContent: Oke
+    actionButtonData:
+      isCanNotClosePopup: 1
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 20
+  - popupId: 100
+    sizeType: 100
+    title: Warning
+    contents:
+    - Please read and agree with the Terms of use
+    buttonContent: Terms of use
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 1070
+  - popupId: 1020
+    sizeType: 100
+    title: Sorry
+    contents:
+    - Not exist bot ready to play PVE
+    buttonContent: Oke
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 20
+  - popupId: 110
+    sizeType: 100
+    title: Can not login
+    contents:
+    - Your address is not in whitelist
+    - Come back to mainnet ^^
+    buttonContent: 
+    actionButtonData:
+      isCanNotClosePopup: 1
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 20
+  - popupId: 120
+    sizeType: 100
+    title: Insufficient balance
+    contents:
+    - Insufficient balance for this transaction!
+    buttonContent: OK
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 1055
+  - popupId: 9999
+    sizeType: 100
+    title: Maintain
+    contents:
+    - We are maintaining
+    - Come back later!
+    buttonContent: 
+    actionButtonData:
+      isCanNotClosePopup: 1
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 0
+  - popupId: 130
+    sizeType: 100
+    title: Can not login
+    contents:
+    - AddressOrPasswordIsWrong
+    buttonContent: Ok
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 1
+      navigationToScreen: 0
+  - popupId: 140
+    sizeType: 100
+    title: Can not login
+    contents:
+    - AddressOrPasswordIsEmpty
+    buttonContent: Ok
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 1
+      navigationToScreen: 0

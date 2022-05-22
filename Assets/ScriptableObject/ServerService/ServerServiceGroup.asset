@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54e7a2cfdce207408d036e49f094e41, type: 3}
+  m_Name: ServerServiceGroup
+  m_EditorClassIdentifier: 
+  attackBoss: {fileID: 11400000, guid: 3606d7538c9966742963b06362a5ed11, type: 2}
+  breedingCancel: {fileID: 11400000, guid: cd9e7de5eeacbe14d84348c00596224b, type: 2}
+  breedingHero: {fileID: 11400000, guid: f68dc003573aff24b9f3487a40b3ce38, type: 2}
+  breedingSuccess: {fileID: 11400000, guid: b417277c808fb8b4ea8b7ec62e7aa011, type: 2}
+  buyLotteryTicket: {fileID: 11400000, guid: af6d9b4cfcf3e9043b512eede2f1fd60, type: 2}
+  buyPvpTicket: {fileID: 11400000, guid: 06943fa833bb2f84b963bc2d5fd87c69, type: 2}
+  calculateHeroTeamPower: {fileID: 11400000, guid: 2db71bdc4aca73e4380f013863f93204,
+    type: 2}
+  calculateMysteryChestRate: {fileID: 11400000, guid: 027b99e7d12f56949a60cdd67361cead,
+    type: 2}
+  chatInGame: {fileID: 11400000, guid: 98ee3f4ffc3a528439a60487354d323b, type: 2}
+  checkExistLotteryLuckyNumberToday: {fileID: 11400000, guid: a96c37c18230a9247a0047d8b3273254,
+    type: 2}
+  claimMysteryChestLuckyPoint: {fileID: 11400000, guid: d4d24e49327ad89498a4cf44930231ef,
+    type: 2}
+  claimRewardByDate: {fileID: 11400000, guid: 7f9711e9375a7474493eb80fc5cbcd34, type: 2}
+  convertPvpKey: {fileID: 11400000, guid: a91e619b44784054790e48d10669a906, type: 2}
+  depositToken: {fileID: 11400000, guid: 839b79b8a685c7643b3bf840786c2e46, type: 2}
+  endGame: {fileID: 11400000, guid: c6ab1042695a8ba4aab75eca4d668a2a, type: 2}
+  fusionCancel: {fileID: 11400000, guid: 809f2c9ddb161f54fb114ca96e706921, type: 2}
+  fusionHero: {fileID: 11400000, guid: 8422a38cd5a1fa843878e2d9fb4ddded, type: 2}
+  fusionSuccess: {fileID: 11400000, guid: 74883919486fc62438af2507b68cc736, type: 2}
+  genNoneCode: {fileID: 11400000, guid: b73895d647535684d9e13fee089bd9b8, type: 2}
+  getHeroList: {fileID: 11400000, guid: ba9547eac46d1fa449372cb12895eb68, type: 2}
+  getLatestClientRelease: {fileID: 11400000, guid: a5664dac8e82edf4bbceb66a76a00a03,
+    type: 2}
+  getLotteryResultByDate: {fileID: 11400000, guid: a7071c613ca976e4090b09980686341e,
+    type: 2}
+  getMyLotteryTicketToday: {fileID: 11400000, guid: 1a5cbdd04db235a4c9484457a93d59f2,
+    type: 2}
+  getMysteryChestInfo: {fileID: 11400000, guid: efd3be3d4403d3346b57b4574e266faa,
+    type: 2}
+  getRewardHistoryAll: {fileID: 11400000, guid: 9fd47eca551560f468c3732e5d118b92,
+    type: 2}
+  getRewardHistoryByDate: {fileID: 11400000, guid: ae67250a6528120489e080a84c1130da,
+    type: 2}
+  getTransactionHistory: {fileID: 11400000, guid: 4cac4333a972f1244a86747932fef8ff,
+    type: 2}
+  getPvpContestDetail: {fileID: 11400000, guid: 49200c83914010b4cadb67e1c3e00067,
+    type: 2}
+  loadInventory: {fileID: 11400000, guid: 05ace51129fce684db38f4c9d163e536, type: 2}
+  loadGameConfig: {fileID: 11400000, guid: c45caacdb3b617e428f7c06ccff7daee, type: 2}
+  login: {fileID: 11400000, guid: caccc70704f5a224a99190bb6c4338fb, type: 2}
+  loginByPassword: {fileID: 11400000, guid: bcf97516ab471b24c8ca5dab26a107a9, type: 2}
+  openMysteryChest: {fileID: 11400000, guid: 2f462d908c3a0f24f86686e123234dca, type: 2}
+  openPvpBox: {fileID: 11400000, guid: 4a20c2d6b57a40848900a228423f6fd1, type: 2}
+  playPve: {fileID: 11400000, guid: 747dd2c1fcf56554d8ac06d4e52670ac, type: 2}
+  playPvP: {fileID: 11400000, guid: fd3b38b6d2fe43d46b725eea08375a51, type: 2}
+  restoreHeroLevel: {fileID: 11400000, guid: 2fa53fdefd1b7214eb862dd7b95c4ac9, type: 2}
+  selectCard: {fileID: 11400000, guid: 3e87b69c0cae3b94c981a13d8bb2d29d, type: 2}
+  selectHero: {fileID: 11400000, guid: 105411ae002e7594cb2093b5816cbf00, type: 2}
+  skipGame: {fileID: 11400000, guid: a9dbec6b2bbbf88458eda1ff15eac71e, type: 2}
+  skipAllGame: {fileID: 11400000, guid: c1436507584603e4cbeecd80f4849a20, type: 2}
+  startGame: {fileID: 11400000, guid: cfa643f6703997143872e1d70e6b9b59, type: 2}
+  startPhase: {fileID: 11400000, guid: 772872750f6247243b26a80d2a6768c3, type: 2}
+  startRound: {fileID: 11400000, guid: 74f865676583eb84699db63ca5112652, type: 2}
+  setNation: {fileID: 11400000, guid: 39b94a7ceabef5145b3e21959613fb9e, type: 2}
+  setPassword: {fileID: 11400000, guid: a2b8d09ded8aa834d8f397308bb207ac, type: 2}
+  tokenHasChanged: {fileID: 11400000, guid: 2e3d8f6774502154f976bcaa42d9574f, type: 2}
+  upgradeEnergy: {fileID: 11400000, guid: 187001179a4032b488ed7788d23a3624, type: 2}
+  winLottery: {fileID: 11400000, guid: 36591fe3dc4e92242a05998facd4176e, type: 2}
+  withDrawToken: {fileID: 11400000, guid: 2113b3116160a1d4f9506c65fd6cc494, type: 2}
+  withDrawTokenCancel: {fileID: 11400000, guid: b6568b20b8619d44d9ea2ea6783a4b30,
+    type: 2}
+  withDrawTokenSuccess: {fileID: 11400000, guid: bbb0a81ba3cb0cf4c8bca0060609cfc6,
+    type: 2}

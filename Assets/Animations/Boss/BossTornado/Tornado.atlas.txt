@@ -1,0 +1,251 @@
+
+Tornado.png
+size: 1384,1384
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+smoke2
+  rotate: false
+  xy: 515, 452
+  size: 413, 436
+  orig: 417, 438
+  offset: 2, 1
+  index: -1
+tornado/die/main-3
+  rotate: false
+  xy: 2, 890
+  size: 511, 489
+  orig: 511, 489
+  offset: 0, 0
+  index: -1
+tornado/die/pupil-die
+  rotate: false
+  xy: 332, 180
+  size: 156, 217
+  orig: 164, 228
+  offset: 4, 6
+  index: -1
+tornado/gethurt/eye1
+  rotate: false
+  xy: 332, 61
+  size: 148, 117
+  orig: 152, 121
+  offset: 2, 2
+  index: -1
+tornado/gethurt/eye2
+  rotate: false
+  xy: 1225, 230
+  size: 147, 100
+  orig: 152, 104
+  offset: 3, 2
+  index: -1
+tornado/gethurt/eyebrow1
+  rotate: false
+  xy: 1071, 581
+  size: 184, 121
+  orig: 188, 129
+  offset: 2, 4
+  index: -1
+tornado/gethurt/eyebrow2
+  rotate: false
+  xy: 1065, 458
+  size: 184, 121
+  orig: 188, 129
+  offset: 2, 4
+  index: -1
+tornado/gethurt/main-2
+  rotate: false
+  xy: 2, 399
+  size: 511, 489
+  orig: 511, 489
+  offset: 0, 0
+  index: -1
+tornado/gethurt/mouth
+  rotate: false
+  xy: 2, 22
+  size: 76, 34
+  orig: 76, 34
+  offset: 0, 0
+  index: -1
+tornado/idle/VFX-back-1
+  rotate: false
+  xy: 1028, 1083
+  size: 338, 296
+  orig: 399, 358
+  offset: 30, 17
+  index: -1
+tornado/idle/VFX-back-2
+  rotate: false
+  xy: 2, 58
+  size: 328, 339
+  orig: 403, 392
+  offset: 27, 40
+  index: -1
+tornado/idle/choud4
+  rotate: false
+  xy: 1028, 794
+  size: 265, 135
+  orig: 265, 135
+  offset: 0, 0
+  index: -1
+tornado/idle/cloud3
+  rotate: false
+  xy: 1028, 794
+  size: 265, 135
+  orig: 265, 135
+  offset: 0, 0
+  index: -1
+tornado/idle/cloud-1
+  rotate: false
+  xy: 490, 144
+  size: 294, 135
+  orig: 294, 135
+  offset: 0, 0
+  index: -1
+tornado/idle/cloud-2
+  rotate: false
+  xy: 482, 17
+  size: 227, 125
+  orig: 227, 125
+  offset: 0, 0
+  index: -1
+tornado/idle/cloud-3
+  rotate: false
+  xy: 1008, 112
+  size: 177, 98
+  orig: 177, 98
+  offset: 0, 0
+  index: -1
+tornado/idle/electric-1
+  rotate: false
+  xy: 930, 601
+  size: 139, 191
+  orig: 158, 246
+  offset: 3, 52
+  index: -1
+tornado/idle/electric-2
+  rotate: false
+  xy: 1225, 144
+  size: 149, 84
+  orig: 157, 92
+  offset: 4, 4
+  index: -1
+tornado/idle/electric-3
+  rotate: false
+  xy: 930, 484
+  size: 133, 115
+  orig: 142, 117
+  offset: 4, 1
+  index: -1
+tornado/idle/electric-4
+  rotate: false
+  xy: 1225, 332
+  size: 145, 124
+  orig: 145, 124
+  offset: 0, 0
+  index: -1
+tornado/idle/electric-5
+  rotate: false
+  xy: 935, 309
+  size: 103, 173
+  orig: 109, 178
+  offset: 3, 3
+  index: -1
+tornado/idle/electric-5-1
+  rotate: false
+  xy: 1004, 27
+  size: 153, 83
+  orig: 153, 83
+  offset: 0, 0
+  index: -1
+tornado/idle/eye1
+  rotate: false
+  xy: 1251, 482
+  size: 128, 97
+  orig: 131, 99
+  offset: 1, 1
+  index: -1
+tornado/idle/eye2
+  rotate: false
+  xy: 873, 23
+  size: 129, 97
+  orig: 131, 99
+  offset: 1, 1
+  index: -1
+tornado/idle/eyebrow1
+  rotate: false
+  xy: 1040, 335
+  size: 183, 121
+  orig: 189, 129
+  offset: 3, 4
+  index: -1
+tornado/idle/eyebrow2
+  rotate: false
+  xy: 1040, 212
+  size: 183, 121
+  orig: 189, 129
+  offset: 3, 4
+  index: -1
+tornado/idle/main
+  rotate: false
+  xy: 515, 890
+  size: 511, 489
+  orig: 511, 489
+  offset: 0, 0
+  index: -1
+tornado/idle/mouth
+  rotate: false
+  xy: 1071, 704
+  size: 219, 88
+  orig: 219, 88
+  offset: 0, 0
+  index: -1
+tornado/idle/pupil1
+  rotate: false
+  xy: 490, 374
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+tornado/idle/pupil2
+  rotate: false
+  xy: 1040, 459
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+tornado/idle/round-vfx
+  rotate: false
+  xy: 515, 281
+  size: 418, 169
+  orig: 422, 170
+  offset: 2, 1
+  index: -1
+tornado/idle/vfx1
+  rotate: false
+  xy: 786, 122
+  size: 220, 157
+  orig: 225, 158
+  offset: 2, 1
+  index: -1
+tornado/idle/vfx2
+  rotate: false
+  xy: 1028, 931
+  size: 307, 150
+  orig: 312, 152
+  offset: 3, 2
+  index: -1
+tornado/idle/vfx3
+  rotate: false
+  xy: 1187, 43
+  size: 137, 99
+  orig: 142, 101
+  offset: 3, 2
+  index: -1
+tornado/idle/vfx4
+  rotate: false
+  xy: 711, 7
+  size: 160, 113
+  orig: 164, 115
+  offset: 1, 2
+  index: -1

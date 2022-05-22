@@ -1,0 +1,90 @@
+
+Smoke.png
+size: 1356,1356
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+smoke
+  rotate: false
+  xy: 561, 916
+  size: 413, 436
+  orig: 417, 438
+  offset: 2, 1
+  index: -1
+smoke/die/body
+  rotate: false
+  xy: 2, 856
+  size: 557, 496
+  orig: 557, 496
+  offset: 0, 0
+  index: -1
+smoke/gethurt/ball
+  rotate: false
+  xy: 1104, 643
+  size: 148, 143
+  orig: 153, 147
+  offset: 2, 0
+  index: -1
+smoke/gethurt/body
+  rotate: false
+  xy: 2, 366
+  size: 549, 488
+  orig: 549, 488
+  offset: 0, 0
+  index: -1
+smoke/gethurt/mouth
+  rotate: false
+  xy: 561, 866
+  size: 227, 48
+  orig: 227, 48
+  offset: 0, 0
+  index: -1
+smoke/idle/VFX-smoke1
+  rotate: false
+  xy: 1104, 388
+  size: 114, 108
+  orig: 114, 108
+  offset: 0, 0
+  index: -1
+smoke/idle/ball
+  rotate: false
+  xy: 1104, 498
+  size: 148, 143
+  orig: 153, 147
+  offset: 2, 0
+  index: -1
+smoke/idle/body
+  rotate: false
+  xy: 553, 366
+  size: 549, 488
+  orig: 549, 488
+  offset: 0, 0
+  index: -1
+smoke/idle/eyes
+  rotate: false
+  xy: 976, 877
+  size: 340, 113
+  orig: 344, 117
+  offset: 2, 2
+  index: -1
+smoke/idle/mouth
+  rotate: false
+  xy: 1104, 788
+  size: 248, 87
+  orig: 248, 87
+  offset: 0, 0
+  index: -1
+smoke/idle/pupil
+  rotate: false
+  xy: 790, 886
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+smoke/idle/vfx-smoke2
+  rotate: false
+  xy: 976, 992
+  size: 374, 360
+  orig: 374, 360
+  offset: 0, 0
+  index: -1

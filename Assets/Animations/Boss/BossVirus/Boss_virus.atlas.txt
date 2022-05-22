@@ -1,0 +1,160 @@
+
+Boss_virus.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boss1/a-1
+  rotate: false
+  xy: 240, 88
+  size: 106, 111
+  orig: 106, 111
+  offset: 0, 0
+  index: -1
+boss1/b-1
+  rotate: false
+  xy: 275, 211
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1
+boss1/b-2
+  rotate: false
+  xy: 123, 38
+  size: 81, 73
+  orig: 81, 73
+  offset: 0, 0
+  index: -1
+boss1/body
+  rotate: false
+  xy: 513, 795
+  size: 430, 441
+  orig: 438, 448
+  offset: 4, 2
+  index: -1
+boss1/die/eyeball
+  rotate: false
+  xy: 462, 189
+  size: 159, 166
+  orig: 163, 169
+  offset: 2, 1
+  index: -1
+boss1/die/mouth
+  rotate: false
+  xy: 123, 113
+  size: 90, 24
+  orig: 90, 24
+  offset: 0, 0
+  index: -1
+boss1/die/pupil
+  rotate: false
+  xy: 2, 2
+  size: 74, 76
+  orig: 74, 76
+  offset: 0, 0
+  index: -1
+boss1/gethit/eye
+  rotate: false
+  xy: 300, 293
+  size: 160, 157
+  orig: 162, 160
+  offset: 1, 2
+  index: -1
+boss1/gethit/eyeball
+  rotate: false
+  xy: 326, 622
+  size: 118, 112
+  orig: 118, 112
+  offset: 0, 0
+  index: -1
+boss1/gethit/eyebrow
+  rotate: false
+  xy: 123, 139
+  size: 115, 60
+  orig: 115, 60
+  offset: 0, 0
+  index: -1
+boss1/gethit/forehead
+  rotate: false
+  xy: 353, 273
+  size: 72, 18
+  orig: 72, 18
+  offset: 0, 0
+  index: -1
+boss1/gethit/mouth
+  rotate: false
+  xy: 2, 201
+  size: 271, 129
+  orig: 271, 129
+  offset: 0, 0
+  index: -1
+boss1/gethit/mouth-lower
+  rotate: false
+  xy: 348, 190
+  size: 73, 19
+  orig: 73, 19
+  offset: 0, 0
+  index: -1
+boss1/gethit/pupil
+  rotate: false
+  xy: 446, 701
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+boss1/idle/eye
+  rotate: false
+  xy: 300, 452
+  size: 160, 167
+  orig: 162, 169
+  offset: 1, 2
+  index: -1
+boss1/idle/eyeball
+  rotate: false
+  xy: 2, 80
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+boss1/idle/lip-lower
+  rotate: false
+  xy: 353, 253
+  size: 72, 18
+  orig: 72, 18
+  offset: 0, 0
+  index: -1
+boss1/idle/mouth
+  rotate: false
+  xy: 2, 621
+  size: 322, 113
+  orig: 322, 113
+  offset: 0, 0
+  index: -1
+boss1/idle/pupil
+  rotate: false
+  xy: 446, 667
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+boss1/mockup
+  rotate: false
+  xy: 2, 736
+  size: 509, 500
+  orig: 509, 500
+  offset: 0, 0
+  index: -1
+boss1/smoke
+  rotate: false
+  xy: 513, 357
+  size: 413, 436
+  orig: 417, 438
+  offset: 2, 1
+  index: -1
+boss1/virus-small
+  rotate: false
+  xy: 2, 332
+  size: 296, 287
+  orig: 296, 287
+  offset: 0, 0
+  index: -1

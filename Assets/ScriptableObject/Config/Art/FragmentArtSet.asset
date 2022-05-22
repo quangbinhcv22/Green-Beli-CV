@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b95fa374ceb67148827e82b43bbe9f1, type: 3}
+  m_Name: FragmentArtSet
+  m_EditorClassIdentifier: 
+  fragmentArtConfigs:
+    defaultValue: {fileID: 21300000, guid: 19ebdeeff47f8774bb6f6c5a02c08bd6, type: 3}
+    customPairs:
+    - key: 1
+      value: {fileID: 21300000, guid: 287e95a13efcdba4bba38f53996cb058, type: 3}
+    - key: 2
+      value: {fileID: 21300000, guid: 9657979aea95e704a8606e5f28cb3f4a, type: 3}
+    - key: 3
+      value: {fileID: 21300000, guid: c47563186d5710f4f9894204cef88e42, type: 3}
+    - key: 4
+      value: {fileID: 21300000, guid: 13971a97b7f6647448f584573776a38d, type: 3}
+    - key: 9
+      value: {fileID: 21300000, guid: ad0956c9cff5abe40a713e561f19268f, type: 3}

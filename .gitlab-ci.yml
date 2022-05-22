@@ -1,0 +1,47 @@
+stages:
+    - deploy
+
+############# TEMPLATE #############
+.deploy: &deploy
+    stage: deploy
+    image: dungntc/ubuntu_ansible
+    before_script:
+        - 'which ssh-agent || ( apt-get install -qq openssh-client )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$SSH_PRIVATE_KEY")
+        - mkdir -p ~/.ssh
+        - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    script:
+        - echo "${DEPLOY_INVENTORY}" >> ansible/inventory.ini
+        - ansible-playbook ansible/playbook.yml -i ansible/inventory.ini -l ${CI_ENVIRONMENT_NAME}
+    after_script:
+        - |
+            curl --silent --show-error --fail -X POST "https://api.cloudflare.com/client/v4/zones/bd8f2fdc4f54685a1a06c87de10d5b6a/purge_cache" \
+                -H "Authorization: Bearer ${CLF_TOKEN}" \
+                -H "Content-Type: application/json" \
+                -d "${CACHED_FILES}"
+    allow_failure: false
+    tags:
+        - docker
+
+############# PRODUCTION #############
+deploy:beta:
+    <<: *deploy
+    variables:
+        RELEASE_NAME: grbe_game
+        CACHED_FILES: '{"purge_everything":true}'
+    environment:
+        name: beta
+    only:
+        - build_production
+
+deploy:production:
+    <<: *deploy
+    variables:
+        RELEASE_NAME: grbe_game
+        CACHED_FILES: '{"purge_everything":true}'
+    environment:
+        name: production
+    only:
+        - build_production
+    when: manual

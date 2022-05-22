@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2442f575320f81d4bbecee8d45bdf0a3, type: 3}
+  m_Name: PlayPvPResponseNormalPopupHandler
+  m_EditorClassIdentifier: 
+  yetNotSelectHeroEnergyPopupData:
+    popupId: 9999
+    sizeType: 100
+    title: Warning
+    contents: []
+    buttonContent: My team
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 60
+  selectedHeroStateNotAllowPlayPopupData:
+    popupId: 9999
+    sizeType: 100
+    title: Warning
+    contents: []
+    buttonContent: My team
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 60
+  heroListEmptyPopupData:
+    popupId: 0
+    sizeType: 100
+    title: Warning
+    contents: []
+    buttonContent: Main Menu
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 20
+  noMatchingCompetitorData:
+    popupId: 0
+    sizeType: 100
+    title: Warning
+    contents: []
+    buttonContent: Main Menu
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 20
+  heroHasChangedData:
+    popupId: 0
+    sizeType: 100
+    title: Warning
+    contents: []
+    buttonContent: Main Menu
+    actionButtonData:
+      isCanNotClosePopup: 0
+      isOnlyActionClosePopup: 0
+      navigationToScreen: 20

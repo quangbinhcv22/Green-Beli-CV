@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d394d7884d5d9c4abfb0fde1c85a11b, type: 3}
+  m_Name: PvpInfoPopupPreset
+  m_EditorClassIdentifier: 
+  data:
+    title: PvP
+    titleFontSize: 55
+    content: "<align=\"left\">Players use PvP Tickets to join PvP battles.\n\nMatchmaking:
+      The main Green Heroes will be paired against each other regardless of the number
+      of stars. They will get stat at level 8.\n\nIn a PvP battle, only the winner
+      receives Keys. The higher the main Green Hero\u2019s star, the more Keys you
+      get."

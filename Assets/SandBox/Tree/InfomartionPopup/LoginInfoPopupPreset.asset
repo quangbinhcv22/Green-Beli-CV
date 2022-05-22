@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d394d7884d5d9c4abfb0fde1c85a11b, type: 3}
+  m_Name: LoginInfoPopupPreset
+  m_EditorClassIdentifier: 
+  data:
+    title: Login
+    titleFontSize: 55
+    content: '<align="left">Login by <color=#A3F409>Metamask wallet</color>: Access
+      to all in-game features.
+
+
+      Login by Binding Account with <color=#A3F409>Basic
+      access</color>: Access to off-chain features only.
+
+
+      Login by Binding
+      Account with <color=#A3F409>Advanced access</color>: Access to PvE, PvP, Hero
+      list and Setting General and Avatar only.'

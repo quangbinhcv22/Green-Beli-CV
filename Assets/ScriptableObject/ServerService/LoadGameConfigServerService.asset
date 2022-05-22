@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2e426b05cc99844939d7034749e566, type: 3}
+  m_Name: LoadGameConfigServerService
+  m_EditorClassIdentifier: 
+  debugConfig:
+    path: Debug/LoadGameConfig.txt
+  _response:
+    id: LOAD_GAME_CONFIG
+    data:
+      energyRecoverIntervalSec: 28800
+      serverTime: 18-May-2022 10:06:07
+      supportHero:
+        mutal_generation_rule:
+        - main: 3
+          main_class: water
+          support: 1
+          support_class: metal
+        - main: 5
+          main_class: fire
+          support: 2
+          support_class: wood
+        - main: 2
+          main_class: wood
+          support: 3
+          support_class: water
+        - main: 1
+          main_class: metal
+          support: 4
+          support_class: earth
+        - main: 4
+          main_class: earth
+          support: 5
+          support_class: fire
+        buff_rarity_star:
+        - star: 1
+          rarity_1: 0.005
+          rarity_2: 0.01
+          rarity_3: 0.015
+          rarity_4: 0.025
+          rarity_5: 0.035
+          rarity_6: 0.05
+        - star: 2
+          rarity_1: 0.01
+          rarity_2: 0.02
+          rarity_3: 0.025
+          rarity_4: 0.035
+          rarity_5: 0.045
+          rarity_6: 0.06
+        - star: 3
+          rarity_1: 0.015
+          rarity_2: 0.025
+          rarity_3: 0.03
+          rarity_4: 0.04
+          rarity_5: 0.05
+          rarity_6: 0.065
+        - star: 4
+          rarity_1: 0.025
+          rarity_2: 0.035
+          rarity_3: 0.04
+          rarity_4: 0.05
+          rarity_5: 0.06
+          rarity_6: 0.075
+        - star: 5
+          rarity_1: 0.035
+          rarity_2: 0.045
+          rarity_3: 0.05
+          rarity_4: 0.06
+          rarity_5: 0.07
+          rarity_6: 0.085
+        - star: 6
+          rarity_1: 0.05
+          rarity_2: 0.06
+          rarity_3: 0.065
+          rarity_4: 0.075
+          rarity_5: 0.085
+          rarity_6: 0.1
+      game:
+        loseStreakBuff: 0.4
+      nation:
+        nation:
+        - name: Philippines
+          code: PH
+        - name: Brazil
+          code: BR
+        - name: Viet Nam
+          code: VN
+        - name: Indonesia
+          code: ID
+        - name: United States
+          code: US
+        - name: Thailand
+          code: TH
+        - name: Russia
+          code: RU
+        - name: India
+          code: IN
+        - name: Spain
+          code: ES
+        - name: United Kingdom
+          code: GB
+        - name: Others
+          code: OT
+        limitDayUpdateNation: 60
+      tree:
+        general:
+          beLiCostPerWatering: 500
+          gFruitCostToRestoreDyingTree: 1000
+          maxHealthPoint: 7
+          numberHeroToActiveTree: 3
+          gFruitCostPerWatering: 
+          gFruitCostPerFertilizing: 1800
+          numberFruitPerFertilizing: 4
+          intervalTimeUpdateHealthPoint: 24:HOURS
+          limitFertilizingPerDay: 5
+          numberFruitPerWatering: 1
+          beLiCostPerFertilizing: 2000
+          fruitRate: 0.05
+          numberFragmentToActiveTree: 25
+        fruitRare: []
+        price:
+        - money: 0
+          quantity: 1000000000
+        - money: 1
+          quantity: 2
+      levelCapacityStar:
+        levelCapacityStar:
+        - star: 1
+          level: 8
+        - star: 2
+          level: 32
+        - star: 3
+          level: 64
+        - star: 4
+          level: 128
+        - star: 5
+          level: 256
+        - star: 6
+          level: 512
+      lottery:
+        price: 5000
+        reward_interval_time: 1800000
+        reward_interval_close_time: 300000
+        dailyRewardStructure:
+        - reward: 0.25
+          top: 1
+        - reward: 0.13
+          top: 2
+        - reward: 0.08
+          top: 3
+        - reward: 0.02
+          top: 4-10
+        - reward: 0.01
+          top: 11-50
+      pvp:
+        ticket_price: 500
+        ticketOriginPrice: 600
+        pvpticket_require_pvpkey_reward:
+        - key_reward: 1
+          star: 1
+          pvp_ticket_require: 10
+        - key_reward: 2
+          star: 2
+          pvp_ticket_require: 20
+        - key_reward: 4
+          star: 3
+          pvp_ticket_require: 40
+        - key_reward: 8
+          star: 4
+          pvp_ticket_require: 80
+        - key_reward: 16
+          star: 5
+          pvp_ticket_require: 160
+        - key_reward: 32
+          star: 6
+          pvp_ticket_require: 320
+        leaderboard_reward:
+        - top: 1
+          rate_gfruit_reward_per_prize: 0.1
+        - top: 2
+          rate_gfruit_reward_per_prize: 0.07
+        - top: 3
+          rate_gfruit_reward_per_prize: 0.055
+        - top: 4-10
+          rate_gfruit_reward_per_prize: 0.02
+        - top: 11-50
+          rate_gfruit_reward_per_prize: 0.005
+        - top: 51-200
+          rate_gfruit_reward_per_prize: 0.0015
+        - top: 201-500
+          rate_gfruit_reward_per_prize: 0.0007
+        open_box_reward: []
+      restoreLevel:
+        restore_level_price:
+        - star: 1
+          max_level: 8
+          gfruits_per_level: 2000
+          min_level: 1
+        - star: 2
+          max_level: 32
+          gfruits_per_level: 4000
+          min_level: 9
+        - star: 3
+          max_level: 64
+          gfruits_per_level: 8000
+          min_level: 33
+        - star: 4
+          max_level: 128
+          gfruits_per_level: 16000
+          min_level: 65
+        - star: 5
+          max_level: 256
+          gfruits_per_level: 32000
+          min_level: 129
+        - star: 6
+          max_level: 512
+          gfruits_per_level: 64000
+          min_level: 257
+      inventory:
+        fragmentInformation:
+        - amountOfFragmentToCombineBox: 25
+          fragmentName: Exp Card Fragment
+          fragmentType: 1
+          description: Assemble <color=#A3F409>25</color> fragments into an <color=#A3F409>Exp
+            card box</color>.
+        - amountOfFragmentToCombineBox: 25
+          fragmentName: Fusion Stone Fragment
+          fragmentType: 2
+          description: Assemble <color=#A3F409>25</color> fragments into a <color=#A3F409>Fusion
+            stone box</color>.
+        - amountOfFragmentToCombineBox: 25
+          fragmentName: Training House Fragment
+          fragmentType: 3
+          description: Assemble <color=#A3F409>25</color> fragments into a <color=#A3F409>Training
+            house box</color>.
+        - amountOfFragmentToCombineBox: 25
+          fragmentName: NFT Card Fragment
+          fragmentType: 4
+          description: Assemble <color=#A3F409>25</color> fragments into a <color=#A3F409>NFT
+            Card box</color>.
+        - amountOfFragmentToCombineBox: 25
+          fragmentName: Land Fragment
+          fragmentType: 9
+          description: Assemble <color=#A3F409>25</color> fragments into a <color=#A3F409>Land
+            box</color>.
+        materialInformation:
+        - materialType: 1
+          materialName: Green Leaf
+          description: Used to exchange NFT decorative items in all of events.
+        - materialType: 2
+          materialName: Blue Leaf
+          description: Used to exchange NFT decorative items in all of events.
+        - materialType: 3
+          materialName: Violet Leaf
+          description: Used to exchange NFT decorative items in all of events.
+        - materialType: 4
+          materialName: Orange Leaf
+          description: Used to exchange NFT decorative items in all of events.
+        - materialType: 5
+          materialName: Red Leaf
+          description: Used to exchange NFT decorative items in all of events.
+        - materialType: 6
+          materialName: Teal Leaf
+          description: Used to exchange NFT decorative items in all of events.
+        - materialType: 7
+          materialName: Lemon Leaf
+          description: Used to exchange NFT decorative items in all of events.
+        - materialType: 8
+          materialName: Pink Leaf
+          description: Used to exchange NFT decorative items in all of events.
+        combineBoxPrice:
+        - gFruit: 20000
+          id: 1
+          grbe: 50
+        - gFruit: 20000
+          id: 2
+          grbe: 250
+        - gFruit: 20000
+          id: 3
+          grbe: 1250
+        - gFruit: 100000
+          id: 9
+          grbe: 200
+        unboxPrice:
+        - gFruit: 20000
+          id: 1
+          grbe: 0
+        - gFruit: 20000
+          id: 2
+          grbe: 0
+        - gFruit: 20000
+          id: 3
+          grbe: 0
+        - gFruit: 100000
+          id: 9
+          grbe: 0
+        landPackPrice:
+        - gFruit: 100000
+          id: 9
+          grbe: 200
+        landUnpackPrice:
+        - gFruit: 100000
+          id: 9
+          grbe: 200
+      fusion:
+        price:
+        - star: 1
+          quantity_level_up_body_part: 0
+          max_level: 0
+          GFRUIT: 0
+          GRBE: 0
+        - star: 2
+          quantity_level_up_body_part: 1
+          max_level: 0
+          GFRUIT: 140000
+          GRBE: 140
+        - star: 3
+          quantity_level_up_body_part: 2
+          max_level: 0
+          GFRUIT: 350000
+          GRBE: 350
+        - star: 4
+          quantity_level_up_body_part: 1
+          max_level: 0
+          GFRUIT: 700000
+          GRBE: 700
+        - star: 5
+          quantity_level_up_body_part: 1
+          max_level: 0
+          GFRUIT: 1400000
+          GRBE: 1400
+        - star: 6
+          quantity_level_up_body_part: 2
+          max_level: 0
+          GFRUIT: 4200000
+          GRBE: 4200
+      mysteryChest:
+        star_buff_rate: []
+        generation_buff_rate: []
+        price:
+          gfruit: 5000
+          energy: 1
+        rate_drop_fragment_default: []
+        rarity_buff_rate: []
+        limit_number_land_fragment: 25000
+        limit_lucky_point_to_claim: 50
+      pve:
+        pveRewardRate:
+        - reward: beli
+          rate: 0.8
+          star1: 1000
+          star2: 2000
+          star3: 4000
+          star4: 8000
+          star5: 16000
+          star6: 32000
+        - reward: pvp_ticket
+          rate: 0.1
+          star1: 2
+          star2: 4
+          star3: 8
+          star4: 16
+          star5: 32
+          star6: 64
+        - reward: nft_fragment
+          rate: 0.1
+          star1: exp_card_fragment:1:0.5|nft_card_fragment:1:0.5
+          star2: exp_card_fragment:2:0.3|fusion_stone_fragment:2:0.4|nft_card_fragment:2:0.3
+          star3: fusion_stone_fragment:3:0.35|training_house_fragment:1:0.25|nft_card_fragment:3:0.35|land_fragment:1:0.05
+          star4: fusion_stone_fragment:4:0.2|training_house_fragment:2:0.4|nft_card_fragment:5:0.2|land_fragment:1:0.2
+          star5: fusion_stone_fragment:6:0.2|training_house_fragment:3:0.2|nft_card_fragment:8:0.2|land_fragment:1:0.4
+          star6: fusion_stone_fragment:10:0.2|training_house_fragment:5:0.2|nft_card_fragment:10:0.2|land_fragment:2:0.4
+      energy:
+        star_energy:
+        - energy_per_pve: 1
+          energy_gen_per_time: 2
+          star: 1
+        - energy_per_pve: 2
+          energy_gen_per_time: 4
+          star: 2
+        - energy_per_pve: 4
+          energy_gen_per_time: 10
+          star: 3
+        - energy_per_pve: 8
+          energy_gen_per_time: 22
+          star: 4
+        - energy_per_pve: 16
+          energy_gen_per_time: 46
+          star: 5
+        - energy_per_pve: 32
+          energy_gen_per_time: 100
+          star: 6
+        capacity:
+        - level: 1
+          upgrade_cost: 0
+          capacity: 16
+        - level: 2
+          upgrade_cost: 120000
+          capacity: 24
+        - level: 3
+          upgrade_cost: 300000
+          capacity: 36
+        - level: 4
+          upgrade_cost: 1200000
+          capacity: 64
+        - level: 5
+          upgrade_cost: 3000000
+          capacity: 128
+        - level: 6
+          upgrade_cost: 6000000
+          capacity: 200
+        - level: 7
+          upgrade_cost: 15000000
+          capacity: 500
+      breeding:
+        price:
+        - times: 1
+          gfruit: 80000
+          grbe: 200
+        - times: 2
+          gfruit: 100000
+          grbe: 200
+        - times: 3
+          gfruit: 120000
+          grbe: 200
+        - times: 4
+          gfruit: 150000
+          grbe: 200
+        - times: 5
+          gfruit: 180000
+          grbe: 200
+        - times: 6
+          gfruit: 200000
+          grbe: 200
+    error: 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d394d7884d5d9c4abfb0fde1c85a11b, type: 3}
+  m_Name: BridgeInfoPopupPreset
+  m_EditorClassIdentifier: 
+  data:
+    title: Bridge
+    titleFontSize: 55
+    content: "<align=\"left\">You can deposit and withdraw GFRUIT to and from the
+      game through Bridge.\r\n\r\nAfter you claim your rewards from Lock Reward,
+      you will be charged a fee of 3% of the withdrawal amount.\n\r\nIf there is
+      any error while processing the withdrawal, please try again after 30 minutes.\r"
